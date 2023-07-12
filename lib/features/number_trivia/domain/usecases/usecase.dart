@@ -13,6 +13,5 @@ abstract class UseCase<Type, Params> {
 // doesn't accept any parameters.
 class NoParams extends Equatable {
   @override
-  // TODO: implement props
   List<Object?> get props => [];
 }
